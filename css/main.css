@@ -1,0 +1,22 @@
+/* the styles for the elements */
+
+body {
+background-color: rgb(202, 217, 238);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav li {
+    margin: 40px;
+    padding-top: 50px;
+}
+ main img {
+    float: right;
+ }
+
+footer {
+    display: flex;
+}
