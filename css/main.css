@@ -9,38 +9,51 @@ h1 {
     text-decoration: underline;
 }
 
-aside {
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* Style the links inside the navigation bar */
-.topnav a {
-    color: black;
+.topnav li {
+    list-style: none;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
     font-size: 18px;
     display: inline-block;
 }
 
+.topnav a {
+    color: black;
+}
+
+
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav li:hover {
     background-color: white;
-    color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-    color: black;
+/*style for links to each file*/
+.nav li {
+    width: 100%;
+    font-size: 20px;
+    padding-inline: 20px;
+    margin: 50px;
+    list-style: none;
 }
 
- img {
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+img {
     float: right;
- }
+    padding-inline: 30px;
+}
+
+p {
+    padding-top: 25%;
+    text-align: center;
+}
 
 footer {
     display: flex;
+    text-align: center;
 }
