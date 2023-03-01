@@ -15,8 +15,10 @@ aside {
 }
 
 div {
-position: fixed;
+float: left;
+font-weight: bold;
 }
+
  main img {
     float: right;
  }
