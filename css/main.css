@@ -5,6 +5,7 @@ background-color: rgb(202, 217, 238);
 }
 
 h1 {
+    color: darkblue;
     text-align: center;
     text-decoration: underline;
 }
@@ -30,7 +31,7 @@ h1 {
 
 /*style for links to each file*/
 .nav li {
-    width: 100%;
+    width: 50%;
     font-size: 20px;
     padding-inline: 20px;
     margin: 50px;
@@ -43,10 +44,10 @@ h1 {
 }
 
 
-
 img {
     float: right;
-    padding-inline: 30px;
+    margin: 5px;
+    padding-inline: 20px;
 }
 
 p {
@@ -55,6 +56,7 @@ p {
 }
 
 footer {
-    display: flex;
     text-align: center;
+    position: absolute;
+    top: 200%;
 }
