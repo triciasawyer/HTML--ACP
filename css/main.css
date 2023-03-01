@@ -9,9 +9,13 @@ h1 {
     text-decoration: underline;
 }
 
-nav li {
+aside {
     margin: 40px;
     padding-top: 50px;
+}
+
+div {
+position: fixed;
 }
  main img {
     float: right;
