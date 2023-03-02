@@ -15,7 +15,7 @@ function teamName() {
 
   let confirmMessage = confirm('Do you want to continue?');
   console.log('confirm message: ', confirmMessage);
-  
+
   console.log('baseball team', baseBallTeam);
   let team = baseBallTeam.toLowerCase();
 
