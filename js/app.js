@@ -15,12 +15,12 @@ console.log("proof of life, so that know js is connected up.");
 //      = assignment operator
 //     the prompt is getting assigned to the userName variable.
 
-let userName = prompt("What is your favorite color?");
-console.log("favorite_color: ", favoritecolor);
+let favcolor = prompt("What is your favorite color?");
+console.log("favorite_color: ", favcolor);
 let confirmMessage = confirm("Do you want to continue?");
 console.log("confirm message: ", confirmMessage);
-let userTime = prompt("When is your birthday?");
-console.log("Birthday: ", userTime);
+let mood = prompt("What mood is associated with that color?");
+console.log("What mood?:", mood);
 
 //process that information given to us from the user
 //if else conditional and 
