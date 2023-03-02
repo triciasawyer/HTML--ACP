@@ -10,23 +10,24 @@ console.log('proof of life.');
 // the prompt is getting assigned to the userName variable.
 
 
-function teamName(){
+function teamName() {
   let baseBallTeam = prompt('Do you like Cubs or Cardinals?');
 
+  let confirmMessage = confirm('Do you want to continue?');
+  console.log('confirm message: ', confirmMessage);
+  
   console.log('baseball team', baseBallTeam);
   let team = baseBallTeam.toLowerCase();
-  
-  
-  let greeting;
-  
-  if (team === 'cardinals') {
-      greeting = 'Right on!';
-  } else if (team === 'cubs') {
-      greeting = 'What a tradegy';
-  }
-}
 
-teamName();
+
+  let greeting;
+  if (team === 'cardinals') {
+    greeting = 'Right on!';
+  } else if (team === 'cubs') {
+    greeting = 'What a tradegy';
+  }
+  return greeting;
+}
 
 
 //function getTime (){}
