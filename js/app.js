@@ -1,5 +1,5 @@
 "use strict";
-console.log("proof of life, so that know our js is connected up.");
+console.log("proof of life, so that know js is connected up.");
 
 // comment in javascript
 /**
@@ -16,7 +16,7 @@ console.log("proof of life, so that know our js is connected up.");
 //     the prompt is getting assigned to the userName variable.
 
 let userName = prompt("What is your favorite color?");
-console.log("favorite color: ", favoritecolor);
+console.log("favorite_color: ", favoritecolor);
 let confirmMessage = confirm("Do you want to continue?");
 console.log("confirm message: ", confirmMessage);
 let userTime = prompt("When is your birthday?");
