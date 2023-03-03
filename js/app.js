@@ -1,15 +1,6 @@
 'use strict';
 console.log('proof of life!');
 
-
-//get some input from our user
-// prompt is a thing we call a method 'way to do something'
-//expressions end with semicolon
-//when we use the key word let, javascript is going to create a space in memory to store the response.
-//      = assignment operator
-// the prompt is getting assigned to the userName variable.
-
-
 // function teamName() {
 //   let baseBallTeam = prompt('Do you like Cubs or Cardinals?');
 
@@ -30,24 +21,6 @@ console.log('proof of life!');
 // }
 
 
-//while loop
-//let count = 0;
-// while(count <=20) {
-// console.log (count);
-//  count = count +5; }
-
-// or count += 5;
-
-// let stop = '1';
-//  while (true){
-//let input = prompt ('Guess a number. Type 1 to exit')}
-
-
-
-
-//lab 8
-
-//function userInputParsed() {}
 
 let imageElement = document.getElementById('imageSection');
 
@@ -80,18 +53,3 @@ for (var i = 0; i < userInputParsed; i++) {
 
 
 
-
-
-//function getTime (){}
-// use function 
-
-//process that information given to us from the user
-//if else conditional and 
-// if(condition is true or false){
-//     do this
-// } else if(condition is true or false){
-//     do this
-// } else if(condition is true or false){
-//   do this
-
-//conditional logic
