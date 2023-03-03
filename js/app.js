@@ -64,12 +64,16 @@ if (!isNaN(userInputParsed)) {
 }
 console.table(typeof(userInput));
 
+// For loop
+//declare variable(i).    conditiona; i = i + 1
 for (var i = 0; i < userInputParsed; i++) {
   let listImage = document.createElement('li');
   let image = document.createElement('img');
+  
   image.setAttribute('src', 'images/states.png');
   image.setAttribute('alt', 'pic of Iowa');
-  //give the image to the list
+  
+  // <li><img></li>
   listImage.appendChild(image);
   console.log(listImage);
   imageElement.appendChild(listImage);
